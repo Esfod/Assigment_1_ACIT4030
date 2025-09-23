@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# dataset
+Dataset/
+ShapeNetCore/
+
 # Distribution / packaging
 .Python
 build/
