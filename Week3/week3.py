@@ -12,7 +12,7 @@ from multiprocessing import freeze_support
 ROOT = "Dataset/ShapeNetCore"      
 TRAIN_RATIO = 0.8
 BATCH_SIZE = 8
-NUM_WORKERS = 4
+NUM_WORKERS = 8
 SEED = 42
 dataset = ShapeNetCore(ROOT, version=2, load_textures=False)                  
 CLASS_NAMES = sorted(dataset.synset_inv.keys())          # e.g. ['airplane','chair',...]
